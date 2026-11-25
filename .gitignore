@@ -1,0 +1,21 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local databases & logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
